@@ -4,5 +4,5 @@ fi
 
 input="$1"
 output=${input%.cpp}
-clang -lstdc++ -o "build/$output" "$input"
+clang -lstdc++ -o "build/$output" -g "$input"
 ./build/"$output"
