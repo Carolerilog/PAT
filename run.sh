@@ -2,7 +2,8 @@ if [ ! -d "build" ]; then
     mkdir build
 fi
 
-input="$1"
-output=${input%.cpp}
-clang -lstdc++ -o "build/$output" -g "$input"
-./build/"$output"
+src=$1
+exe=build/${src%.cpp}
+
+clang++ -DONLINE_JUDGE -O2 -Wall -std=c++17 -pipe -g $src -lm -o $exe
+$exe
