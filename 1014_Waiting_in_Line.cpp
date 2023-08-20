@@ -1,3 +1,4 @@
+// Service cannot be started after 17:00, but it's ok to end after 17:00
 #include <cstdio>
 #include <vector>
 #include <queue>
