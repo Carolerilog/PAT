@@ -1,3 +1,4 @@
+// Case m == 0. 
 #include <cstdio>
 #include <vector>
 #include <unordered_map>

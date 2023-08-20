@@ -1,3 +1,4 @@
+// N is non negative.
 #include <cstdio>
 #include <vector>
 #include <algorithm>

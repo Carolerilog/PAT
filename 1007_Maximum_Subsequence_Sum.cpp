@@ -1,3 +1,7 @@
+// Use dp: the max seq end in i is derived from i - 1.
+// There will not be a shorter max seq in i - 1
+// as in that case the front seq will be negative
+// and this part should not be included in the current max seq.
 #include <iostream>
 #include <vector>
 

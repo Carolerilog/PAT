@@ -1,3 +1,4 @@
+// Undirected graph.
 #include <cstdio>
 #include <vector>
 
